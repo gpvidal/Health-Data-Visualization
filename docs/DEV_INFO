@@ -1,0 +1,23 @@
+************************************************
+* PROJECT STRUCTURE
+************************************************
+
+- https://www.tutorialspoint.com/expressjs/expressjs_best_practices.htm
+- https://seanmcgary.com/posts/how-to-structure-a-nodejs-express-project
+- https://blog.risingstack.com/node-hero-node-js-project-structure-tutorial/
+
+************************************************
+* BEST PRACTICES
+************************************************
+
+- https://www.w3schools.com/js/js_conventions.asp
+
+************************************************
+* REACT
+************************************************
+
+- https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
+- https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
+- https://stanko.github.io/setting-up-webpack-babel-and-react-from-scratch/
+- https://carlosazaustre.es/blog/consumiendo-un-api-rest-desde-react-js-con-ecmascript6/
+- https://facebook.github.io/react/docs/thinking-in-react.html
