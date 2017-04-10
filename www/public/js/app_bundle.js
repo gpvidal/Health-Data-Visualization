@@ -26098,6 +26098,30 @@ var CountyInfo = function (_React$Component) {
 	}
 
 	_createClass(CountyInfo, [{
+		key: 'shouldComponentUpdate',
+
+
+		/*
+   * Life cycle method
+   */
+
+		value: function shouldComponentUpdate(nextProps, nextState) {
+
+			if (!this.props.county) {
+				return true;
+			}
+
+			if (this.props.county.id != nextProps.county.id) {
+				return true;
+			}
+			return false;
+		}
+
+		/*
+   * Reder
+   */
+
+	}, {
 		key: 'render',
 		value: function render() {
 

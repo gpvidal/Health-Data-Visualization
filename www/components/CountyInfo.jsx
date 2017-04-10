@@ -6,6 +6,29 @@ import CountyGraphData from './CountyGraphData.jsx'
  * Display the information about county, including table and graph
  */	
 export default class CountyInfo extends React.Component {
+
+
+	/*
+	 * Life cycle method
+	 */
+
+	shouldComponentUpdate(nextProps, nextState){
+		
+		//Initial case
+		if(!this.props.county ){
+			return true;
+		}
+
+		//Future cases
+		if(this.props.county.id != nextProps.county.id){
+			return true;
+		}
+		return false;
+	}
+
+	/*
+	 * Reder
+	 */
 	
 	render() {
 			
