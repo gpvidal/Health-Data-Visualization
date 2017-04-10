@@ -9,9 +9,9 @@
   },
   "author": "Gabriel Vidal",
   "license": "ISC",
-  "repository" : { 
+  "repository": { 
     "type" : "git",
-    "url" : "https://github.com/gpvidal/Health-Data-Visualization.git",
+    "url" : "https://github.com/gpvidal/Health-Data-Visualization.git"
   },
   "dependencies": {
     "chart.js": "^2.5",
